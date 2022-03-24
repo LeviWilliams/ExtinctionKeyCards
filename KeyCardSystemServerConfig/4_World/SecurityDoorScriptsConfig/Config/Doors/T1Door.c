@@ -15,11 +15,11 @@ modded class Land_KlimaX_T1Door
 		EntityAI attachment;
 
         int minWeapons = 1;
-        int maxWeapons = 3;
+        int maxWeapons = 2;
         int minMagAttachments = 2;
         int maxMagAttachments = 4;
-        int minFood = 10;
-        int maxFood = 20;
+        int minFood = 1;
+        int maxFood = 4;
         int minBackpacks = 0;
         int maxBackpacks = 2;
         int minVests = 0;
@@ -28,6 +28,8 @@ modded class Land_KlimaX_T1Door
         int maxShirts = 2;
         int minPants = 0;
         int maxPants = 2;
+        int minOther = 2;
+        int maxOther = 5;
 
         //! Weapons
         int weaponsListCount = KEYCARD_WEAPONS_T1.Count();
@@ -92,15 +94,13 @@ modded class Land_KlimaX_T1Door
             crate.GetInventory().CreateInInventory( pantName );
         }
 
-        //! Other
-        int otherItemsList = KEYCARD_OTHERITEMS.Count();
+        // !Other unique
+        int otherItemsT1List = KEYCARD_OTHER_T1.Count();
 
-        for (i=0; i<otherItemsList; i++) 
+        for (i=0; i<Math.RandomInt(minOther,maxOther); i++) 
         {
-            string otherName = KEYCARD_OTHERITEMS.Get( i );
-
-            //! 50% chance
-            if ( Math.RandomInt(0,2) == 1 ) crate.GetInventory().CreateInInventory( otherName );
+            string otherNameT1 = KEYCARD_OTHER_T1.Get( Math.RandomInt( 0, otherItemsT1List ) );
+            crate.GetInventory().CreateInInventory( otherNameT1 );
         }
     }
 };

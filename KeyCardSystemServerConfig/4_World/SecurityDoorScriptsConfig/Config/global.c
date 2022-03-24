@@ -44,3 +44,9 @@ const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T1 =
     "Mag_STANAG_30Rnd", "Mag_STANAGCoupled_30Rnd", "CPB_KDMR_Magazine", "Mag_Saiga_8Rnd", "Mag_AKM_Drum75Rnd",
     "HuntingOptic", "M4_Suppressor", "M4_OEBttstck", "PSO11Optic", "M4_T3NRDSOptic", "CPB_ACOG_RMR"
 };
+
+const static ref array<string> KEYCARD_OTHER_T1 =
+{
+    "NailBox", "NailBox", "CodeLock", "WoodAxe", "BandageDressing", "Epinephrine", "Morphine", "MediumTent",
+    "Hatchet", "BBP_Mortar_Mix", "BBP_Wallpaper", "BBP_Step_LadderKit", "RFFSHeli_flight_case_red"
+};
