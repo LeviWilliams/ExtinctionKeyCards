@@ -14,64 +14,43 @@ modded class Land_KlimaX_T1Door
 		EntityAI obj;
 		EntityAI attachment;
 
+        int minWeapons = 1;
+        int maxWeapons = 3;
+        int minMagAttachments = 2;
+        int maxMagAttachments = 4;
+        int minFood = 10;
+        int maxFood = 20;
+        int minBackpacks = 0;
+        int maxBackpacks = 2;
+        int minVests = 0;
+        int maxVests = 2;
+        int minShirts = 0;
+        int maxShirts = 2;
+        int minPants = 0;
+        int maxPants = 2;
+
         //! Weapons
-        obj = crate.GetInventory().CreateInInventory("Winchester70_Black");
-        if ( obj )
+        int weaponsListCount = KEYCARD_WEAPONS_T1.Count();
+
+        for (i=0; i<Math.RandomInt(minWeapons,maxWeapons); i++) 
         {
-            obj.GetInventory().CreateAttachment("HuntingOptic");
-            obj.GetInventory().CreateAttachment("GhillieAtt_Woodland");
-            
-            for (i=0; i<Math.RandomInt(1,4); i++) crate.GetInventory().CreateInInventory("Ammo_308WinTracer");
+            string weaponName = KEYCARD_WEAPONS_T1.Get( Math.RandomInt( 0, weaponsListCount ) );
+            crate.GetInventory().CreateInInventory( weaponName );
         }
 
+        //! Mags Attachments
+        int magAttachmentsListCount = KEYCARD_ATTACHMENTS_MAGS_T1.Count();
 
-        obj = crate.GetInventory().CreateInInventory("M4A1");
-        if ( obj )
+        for (i=0; i<Math.RandomInt(minMagAttachments,maxMagAttachments); i++) 
         {
-            obj.GetInventory().CreateAttachment("M4_OEBttstck");
-            obj.GetInventory().CreateAttachment("M4_Suppressor");
-            obj.GetInventory().CreateAttachment("M4_PlasticHndgrd");
-            obj.GetInventory().CreateAttachment("GhillieAtt_Woodland");
-
-            attachment = obj.GetInventory().CreateAttachment("ReflexOptic");
-            if ( attachment ) attachment.GetInventory().CreateAttachment("Battery9V");
-
-            for (i=0; i<Math.RandomInt(1,4); i++) crate.GetInventory().CreateInInventory("Mag_STANAG_30Rnd");
+            string magAttachmentName = KEYCARD_ATTACHMENTS_MAGS_T1.Get( Math.RandomInt( 0, magAttachmentsListCount ) );
+            crate.GetInventory().CreateInInventory( magAttachmentName );
         }
-
-
-
-        obj = crate.GetInventory().CreateInInventory("SVD");
-        if ( obj )
-        {
-            obj.GetInventory().CreateAttachment("AK_Suppressor");
-            obj.GetInventory().CreateAttachment("GhillieAtt_Woodland");
-
-            attachment = obj.GetInventory().CreateAttachment("PSO11Optic");
-            if ( attachment ) attachment.GetInventory().CreateAttachment("Battery9V");
-
-            for (i=0; i<Math.RandomInt(1,4); i++) crate.GetInventory().CreateInInventory("Mag_SVD_10Rnd");
-        }
-
-
-        obj = crate.GetInventory().CreateInInventory("UMP45");
-        if ( obj )
-        {
-            obj.GetInventory().CreateAttachment("PistolSuppressor");
-            obj.GetInventory().CreateAttachment("GhillieAtt_Woodland");
-
-            attachment = obj.GetInventory().CreateAttachment("M4_T3NRDSOptic");
-            if ( attachment ) attachment.GetInventory().CreateAttachment("Battery9V");
-
-            for (i=0; i<Math.RandomInt(1,4); i++) crate.GetInventory().CreateInInventory("Mag_UMP_25Rnd");
-        }
-
-
 
         //! Food
         int foodItemsListCount = KEYCARD_FOOD_DRINKS.Count();
 
-        for (i=0; i<Math.RandomInt(10,20); i++) 
+        for (i=0; i<Math.RandomInt(minFood,maxFood); i++) 
         {
             string foodName = KEYCARD_FOOD_DRINKS.Get( Math.RandomInt( 0, foodItemsListCount ) );
             crate.GetInventory().CreateInInventory( foodName );
@@ -80,7 +59,7 @@ modded class Land_KlimaX_T1Door
         //! Backpacks
         int backpacksListCount = KEYCARD_BACKPACKS.Count();
 
-        for (i=0; i<Math.RandomInt(1,4); i++) 
+        for (i=0; i<Math.RandomInt(minBackpacks,maxBackpacks); i++) 
         {
             string backPackName = KEYCARD_BACKPACKS.Get( Math.RandomInt( 0, backpacksListCount ) );
             crate.GetInventory().CreateInInventory( backPackName );
@@ -89,7 +68,7 @@ modded class Land_KlimaX_T1Door
         //! Vests
         int vestsListCount = KEYCARD_VESTS.Count();
 
-        for (i=0; i<Math.RandomInt(1,4); i++) 
+        for (i=0; i<Math.RandomInt(minVests,maxVests); i++) 
         {
             string vestName = KEYCARD_VESTS.Get( Math.RandomInt( 0, vestsListCount ) );
             crate.GetInventory().CreateInInventory( vestName );
@@ -98,7 +77,7 @@ modded class Land_KlimaX_T1Door
         //! Shirts
         int shirtsListCount = KEYCARD_SHIRTS.Count();
 
-        for (i=0; i<Math.RandomInt(1,4); i++) 
+        for (i=0; i<Math.RandomInt(minShirts,maxShirts); i++) 
         {
             string shirtName = KEYCARD_SHIRTS.Get( Math.RandomInt( 0, shirtsListCount ) );
             crate.GetInventory().CreateInInventory( shirtName );
@@ -107,7 +86,7 @@ modded class Land_KlimaX_T1Door
         //! Pants
         int pantsListCount = KEYCARD_PANTS.Count();
 
-        for (i=0; i<Math.RandomInt(1,4); i++) 
+        for (i=0; i<Math.RandomInt(minPants,maxPants); i++) 
         {
             string pantName = KEYCARD_PANTS.Get( Math.RandomInt( 0, pantsListCount ) );
             crate.GetInventory().CreateInInventory( pantName );

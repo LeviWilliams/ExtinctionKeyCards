@@ -33,3 +33,14 @@ const static ref array<string> KEYCARD_OTHERITEMS =
 {
     "TTSKOBoots", "Mich2001Helmet"
 };
+
+const static ref array<string> KEYCARD_WEAPONS_T1 =
+{
+    "M4A1", "Winchester70_Black", "CPB_KDMR_Worn", "Saiga", "A2HKM5_SD", "AKM", "A2G36_C"
+};
+
+const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T1 =
+{
+    "Mag_STANAG_30Rnd", "Mag_STANAGCoupled_30Rnd", "CPB_KDMR_Magazine", "Mag_Saiga_8Rnd", "Mag_AKM_Drum75Rnd",
+    "HuntingOptic", "M4_Suppressor", "M4_OEBttstck", "PSO11Optic", "M4_T3NRDSOptic", "CPB_ACOG_RMR"
+};
