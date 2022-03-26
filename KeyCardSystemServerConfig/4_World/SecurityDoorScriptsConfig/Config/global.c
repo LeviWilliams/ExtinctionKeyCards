@@ -14,24 +14,18 @@ const static ref array<string> KEYCARD_BACKPACKS =
 const static ref array<string> KEYCARD_VESTS = 
 { 
     "UKAssVest_Camo", "UKAssVest_Khaki", "UKAssVest_Black", 
-    "HighCapacityVest_Black",
-    "PlateCarrierVest"
+    "HighCapacityVest_Black", "MMG_JPC_Vest_black"
 };
 
 const static ref array<string> KEYCARD_SHIRTS = 
 { 
     "TacticalShirt_Grey", "TacticalShirt_Black", "TacticalShirt_Olive", "TacticalShirt_Tan",
-    "TTsKOJacket_Camo"
+    "TTsKOJacket_Camo", "MMG_tactical_shirt_erdl"
 };
 
 const static ref array<string> KEYCARD_PANTS = 
 { 
-    "TTSKOPants", "TacticalShirt_Black", "TacticalShirt_Olive", "TacticalShirt_Tan"
-};
-
-const static ref array<string> KEYCARD_OTHERITEMS =
-{
-    "TTSKOBoots", "Mich2001Helmet"
+    "TTSKOPants", "MMG_combatpants_erdl", "MMG_combatpants_olive", "MMG_combatpants_multicam"
 };
 
 const static ref array<string> KEYCARD_WEAPONS_T1 =
@@ -69,4 +63,30 @@ const static ref array<string> KEYCARD_OTHER_T2 =
     "BBP_Mortar_Mix", "MMG_carrier_backpack_black", "MMG_camelback_black", "MMG_supplybag_black",
     "MMG_tt_vest_erdl", "MMG_striker_helmet_erdl", "SalineBagIV", "BBP_T2_DoorKit", "BBP_T2_GateKit",
     "BearPelt", "RedemptionKeyCard_03"
+};
+
+const static ref array<string> KEYCARD_WEAPONS_T3 =
+{
+    "CPB_SR25_Black", "CPB_SA58_Black", "CPB_SA58_Green", "CPB_Kivaari_Woodland", "CPB_ASH12",
+    "CPB_AWM_Black", "A2AS50", "A2LRRAWM", "CPB_M79", "CPB_AX50_Tan"
+};
+
+const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T3 = 
+{
+    "CPB_SR25_Magazine", "CPB_Kivaari_Mag_20rnd", "ASH12_Magazine", "CPB_Barret_Magazine", 
+    "CPB_AX50_Magazine", "CPB_M200PA_Magazine", "CPB_M300_Magazine", "CPB_AWM_Magazine",
+    "A2LRRAWM_Magazine", "CPB_SA58_Drum_Magazine", "A2Suppressor", "CPB_AmmoBox_408Chey",
+    "CPB_AmmoBox_50Cal", "A2M4SPRScope", "CPB_ELCAN"
+};
+
+const static ref array<string> KEYCARD_VESTS_T3 = 
+{ 
+    "MMG_tt_vest_black", "MMG_tt_vest_multicam", "MMG_MK_III_Armor_black", "MMG_MK_III_Armor_dark_woodland",
+    "MMG_MK_V_Armor_black", "MMG_MK_V_Armor_multicam"
+};
+
+const static ref array<string> KEYCARD_OTHER_T3 = 
+{
+    "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "RedemptionKeyCard_04",
+    "BBP_T3_GateKit", "BBP_T3_DoorKit"
 };
