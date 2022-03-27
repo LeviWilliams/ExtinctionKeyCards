@@ -14,12 +14,12 @@ modded class Land_KlimaX_T2Door
 		EntityAI obj;
 		EntityAI attachment;
 
-        int minWeapons = 1;
+        int minWeapons = 2;
         int maxWeapons = 3;
         int minMagAttachments = 3;
-        int maxMagAttachments = 4;
+        int maxMagAttachments = 5;
         int minOther = 3;
-        int maxOther = 6;
+        int maxOther = 7;
 
         //! Weapons
         int weaponsListCount = KEYCARD_WEAPONS_T2.Count();
