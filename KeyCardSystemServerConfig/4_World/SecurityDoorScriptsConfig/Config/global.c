@@ -90,27 +90,3 @@ const static ref array<string> KEYCARD_OTHER_T3 =
     "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "RedemptionKeyCard_04",
     "BBP_T3_GateKit", "BBP_T3_DoorKit"
 };
-
-const static ref array<string> KEYCARD_WEAPONS_T4 =
-{
-    "CPB_AWM_Black", "A2AS50", "A2LRRAWM", "A2M107", "CPB_AX50_Tan", 
-    "CPB_M300_GreenDig", "CPB_M300_Black", "CPB_M200_PA", "CPB_Barret_Gold"
-};
-
-const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T4 = 
-{
-    "CPB_Barret_Magazine", "CPB_AX50_Magazine", "CPB_M200PA_Magazine", 
-    "CPB_M300_Magazine", "CPB_AWM_Magazine", "A2LRRAWM_Magazine", "A2Suppressor", "CPB_AmmoBox_408Chey",
-    "CPB_AmmoBox_50Cal", "CPB_ELCAN", "CPB_M200PA_Magazine", "A2M107_Magazine"
-};
-
-const static ref array<string> KEYCARD_VESTS_T4 = 
-{ 
-    "MMG_MK_III_Armor_black", "MMG_MK_III_Armor_dark_woodland", "MMG_MK_V_Armor_black", "MMG_MK_V_Armor_multicam"
-};
-
-const static ref array<string> KEYCARD_OTHER_T4 =
-{
-    "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "mmg_Raidsaw", "CP_CannabisBrickS1",
-    "CP_CannabisBrickNomad", "CP_CannabisBrickBlackFrost"
-};
