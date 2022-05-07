@@ -1,4 +1,3 @@
-
 modded class Land_KlimaX_T3Door 
 {
 
