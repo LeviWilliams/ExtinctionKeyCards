@@ -19,3 +19,8 @@ class RedemptionKeyCard_03 : KeyCard_ParentBase {
         return type == "Land_KlimaX_T3Door";
     }
 };
+class RedemptionKeyCard_04 : KeyCard_ParentBase {
+    override bool CanAuthorizeDoor( string type ) {
+        return type == "Land_KlimaX_T4Door";
+    }
+};
