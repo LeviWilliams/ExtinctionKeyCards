@@ -1,4 +1,3 @@
-
 modded class Land_KlimaX_T4Door 
 {
 
@@ -16,12 +15,12 @@ modded class Land_KlimaX_T4Door
 		EntityAI obj;
 		EntityAI attachment;
 
-        int minWeapons = 1;
-        int maxWeapons = 2;
-        int minMagAttachments = 2;
-        int maxMagAttachments = 3;
+        int minWeapons = 2;
+        int maxWeapons = 3;
+        int minMagAttachments = 3;
+        int maxMagAttachments = 4;
         int minVests = 1;
-        int maxVests = 3;
+        int maxVests = 2;
         int minOther = 2;
         int maxOther = 3;
 
@@ -57,8 +56,8 @@ modded class Land_KlimaX_T4Door
 
         for (i=0; i<Math.RandomInt(minOther,maxOther); i++) 
         {
-            string otherItemName = KEYCARD_OTHER_T4.Get( Math.RandomInt( 0, otherListCount ) );
-            crate.GetInventory().CreateInInventory( otherItemName );
+            string otherName = KEYCARD_OTHER_T4.Get( Math.RandomInt( 0, otherListCount ) );
+            crate.GetInventory().CreateInInventory( otherName );
         }
     }
 };
