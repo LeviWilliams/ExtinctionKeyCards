@@ -125,7 +125,6 @@ class PluginKeyCardSystemServer : PluginBase
             m_config.InsertLocation( "Land_KlimaX_T2Door", "6035.05 267.285 10400.7", "122.0 0.0769 0.0481", 60.0, "6041.54 267.351 10396.6", "-35.0 0 0", 10 );
             m_config.InsertLocation( "Land_KlimaX_T2Door", "3966.530029 311.619995 8777.599609", "179.0 -1.0002 0.0018", 60.0, "3966.502197 311.533478 8772.284180", "-30.0 0 0", 10 );
             m_config.InsertLocation( "Land_KlimaX_T3Door", "1747.739990 450.299988 14021.799805", "83.991 0.0 0.0", 60.0, "1758.643799 450.303833 14022.893555", "-70.0 0 0", 10 );
-            m_config.InsertLocation( "Land_KlimaX_T4Door", "1578.42 1102.87 14775.7", "-108.8 0.0 0.0", 60.0, "1557.83 1103.05 14768.7", "71.7367 0 0", 10 );
             
             JsonFileLoader<ref KeyCardSystemConfig>.JsonSaveFile( CONFIG, m_config);
         }
