@@ -8,4 +8,4 @@ class KeyCard_Door_Base : Building
 class Land_KlimaX_T1Door : KeyCard_Door_Base {};
 class Land_KlimaX_T2Door : KeyCard_Door_Base {};
 class Land_KlimaX_T3Door : KeyCard_Door_Base {};
-class Land_KlimaX_T4Door : KeyCard_Door_Base {};
+
