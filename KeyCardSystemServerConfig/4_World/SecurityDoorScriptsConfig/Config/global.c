@@ -111,6 +111,6 @@ const static ref array<string> KEYCARD_VESTS_T4 =
 
 const static ref array<string> KEYCARD_OTHER_T4 =
 {
-    "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "mmg_Raidsaw", "CP_CannabisBrickS1",
+    "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "CP_CannabisBrickS1",
     "CP_CannabisBrickNomad", "CP_CannabisBrickBlackFrost"
 };
