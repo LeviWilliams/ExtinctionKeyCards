@@ -97,7 +97,7 @@ const static ref array<string> KEYCARD_WEAPONS_T4 =
 {
     "CPB_AWM_Black", "A2AS50", "A2LRRAWM", "A2M107", "CPB_AX50_Tan", 
     "CPB_M300_GreenDig", "CPB_M300_Black", "CPB_M200_PA", "CPB_Barret_Gold",
-    "Rainbow_Barret", "Galaxy_AX50"
+    "Rainbow_Barret"
 };
 
 const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T4 = 
