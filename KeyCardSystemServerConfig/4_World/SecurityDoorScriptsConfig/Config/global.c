@@ -41,8 +41,9 @@ const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T1 =
 
 const static ref array<string> KEYCARD_OTHER_T1 =
 {
-    "NailBox", "NailBox", "CodeLock", "WoodAxe", "BandageDressing", "Epinephrine", "Morphine", "MediumTent",
-    "Hatchet", "BBP_Mortar_Mix", "BBP_Wallpaper", "BBP_Step_LadderKit", "RFFSHeli_flight_case_red", "SalineBagIV"
+    "NailBox", "NailBox", "CodeLock", "CodeLock", "WoodAxe", "Epinephrine", "Morphine", "MediumTent",
+    "Hatchet", "BBP_Mortar_Mix", "BBP_Mortar_Mix", "BBP_Wallpaper", "BBP_Step_LadderKit", "RFFSHeli_flight_case_red", 
+    "Collectable_PokemonCard_Pikachu", "Collectable_PokemonCard_Magneton", "Collectable_PokemonCard_Hitmonchan"
 };
 
 const static ref array<string> KEYCARD_WEAPONS_T2 =
@@ -59,10 +60,11 @@ const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T2 =
 
 const static ref array<string> KEYCARD_OTHER_T2 = 
 {
-    "NailBox", "CodeLock", "BandageDressing", "Epinephrine", "Morphine", "CarTent",  "Hatchet",
+    "NailBox", "NailBox", "NailBox", "CodeLock", "BandageDressing", "Epinephrine", "Morphine", "CarTent",  "Hatchet",
     "BBP_Mortar_Mix", "MMG_carrier_backpack_black", "MMG_camelback_black", "MMG_supplybag_black",
     "MMG_tt_vest_erdl", "MMG_striker_helmet_erdl", "SalineBagIV", "BBP_T2_DoorKit", "BBP_T2_GateKit",
-    "BearPelt", "RedemptionKeyCard_03"
+    "BearPelt", "RedemptionKeyCard_03", "Collectable_PokemonCard_Ivysaur", "Collectable_PokemonCard_Dragonair",
+    "Collectable_PokemonCard_Blastoise"
 };
 
 const static ref array<string> KEYCARD_WEAPONS_T3 =
@@ -88,7 +90,7 @@ const static ref array<string> KEYCARD_VESTS_T3 =
 const static ref array<string> KEYCARD_OTHER_T3 = 
 {
     "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "RedemptionKeyCard_04",
-    "BBP_T3_GateKit", "BBP_T3_DoorKit"
+    "BBP_T3_GateKit", "BBP_T3_DoorKit", "Collectable_PokemonCard_Gyarados", "Collectable_PokemonCard_Ninetales"
 };
 
 const static ref array<string> KEYCARD_WEAPONS_T4 =
@@ -112,5 +114,6 @@ const static ref array<string> KEYCARD_VESTS_T4 =
 const static ref array<string> KEYCARD_OTHER_T4 =
 {
     "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "CP_CannabisBrickS1",
-    "CP_CannabisBrickNomad", "CP_CannabisBrickBlackFrost"
+    "CP_CannabisBrickNomad", "CP_CannabisBrickBlackFrost", "Collectable_PokemonCard_Charizard", 
+    "Collectable_PokemonCard_ShinyMewtwo"
 };

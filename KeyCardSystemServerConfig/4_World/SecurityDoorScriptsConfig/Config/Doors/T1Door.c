@@ -29,7 +29,7 @@ modded class Land_KlimaX_T1Door
         int minPants = 0;
         int maxPants = 2;
         int minOther = 2;
-        int maxOther = 5;
+        int maxOther = 6;
 
         //! Weapons
         int weaponsListCount = KEYCARD_WEAPONS_T1.Count();

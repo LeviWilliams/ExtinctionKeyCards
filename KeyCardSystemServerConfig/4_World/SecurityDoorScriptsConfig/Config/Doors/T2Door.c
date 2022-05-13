@@ -15,7 +15,7 @@ modded class Land_KlimaX_T2Door
 		EntityAI attachment;
 
         int minWeapons = 2;
-        int maxWeapons = 3;
+        int maxWeapons = 4;
         int minMagAttachments = 3;
         int maxMagAttachments = 5;
         int minOther = 3;
