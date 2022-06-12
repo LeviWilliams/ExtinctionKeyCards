@@ -90,7 +90,8 @@ const static ref array<string> KEYCARD_VESTS_T3 =
 const static ref array<string> KEYCARD_OTHER_T3 = 
 {
     "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "RedemptionKeyCard_04",
-    "BBP_T3_GateKit", "BBP_T3_DoorKit", "Collectable_PokemonCard_Gyarados", "Collectable_PokemonCard_Ninetales"
+    "BBP_T3_GateKit", "BBP_T3_DoorKit", "Collectable_PokemonCard_Gyarados", "Collectable_PokemonCard_Ninetales",
+    "HackingDevice"
 };
 
 const static ref array<string> KEYCARD_WEAPONS_T4 =
@@ -110,12 +111,12 @@ const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T4 =
 const static ref array<string> KEYCARD_VESTS_T4 = 
 { 
     "MMG_MK_III_Armor_black", "MMG_MK_III_Armor_dark_woodland", "MMG_MK_V_Armor_black", "MMG_MK_V_Armor_multicam",
-    "Extinction_MK_V_Armor_ChromeHearts"
+    "Extinction_MK_V_Armor_ChromeHearts", "Paragon_6B43_Digital_Flora", "Paragon_6B43_Digital_Desert"
 };
 
 const static ref array<string> KEYCARD_OTHER_T4 =
 {
     "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "CP_CannabisBrickS1",
     "CP_CannabisBrickNomad", "CP_CannabisBrickBlackFrost", "Collectable_PokemonCard_Charizard", 
-    "Collectable_PokemonCard_ShinyMewtwo"
+    "Collectable_PokemonCard_ShinyMewtwo", "HackingDevice"
 };
