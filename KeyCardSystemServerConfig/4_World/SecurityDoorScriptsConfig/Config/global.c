@@ -111,7 +111,7 @@ const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T4 =
 const static ref array<string> KEYCARD_VESTS_T4 = 
 { 
     "MMG_MK_III_Armor_black", "MMG_MK_III_Armor_dark_woodland", "MMG_MK_V_Armor_black", "MMG_MK_V_Armor_multicam",
-    "Extinction_MK_V_Armor_ChromeHearts", "Paragon_6B43_Digital_Flora", "Paragon_6B43_Digital_Desert"
+    "Paragon_6B43_Digital_Flora", "Paragon_6B43_Digital_Desert"
 };
 
 const static ref array<string> KEYCARD_OTHER_T4 =
