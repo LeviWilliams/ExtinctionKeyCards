@@ -70,7 +70,7 @@ const static ref array<string> KEYCARD_OTHER_T2 =
 const static ref array<string> KEYCARD_WEAPONS_T3 =
 {
     "CPB_SR25_Black", "CPB_SA58_Black", "CPB_SA58_Green", "CPB_Kivaari_Woodland", "CPB_ASH12",
-    "CPB_AWM_Black", "A2AS50", "A2LRRAWM", "CPB_M79", "CPB_AX50_Tan"
+    "CPB_AWM_Black", "A2AS50", "A2LRRAWM", "CPB_M79"
 };
 
 const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T3 = 
@@ -111,12 +111,13 @@ const static ref array<string> KEYCARD_ATTACHMENTS_MAGS_T4 =
 const static ref array<string> KEYCARD_VESTS_T4 = 
 { 
     "MMG_MK_III_Armor_black", "MMG_MK_III_Armor_dark_woodland", "MMG_MK_V_Armor_black", "MMG_MK_V_Armor_multicam",
-    "Paragon_6B43_Digital_Flora", "Paragon_6B43_Digital_Desert"
+    "Paragon_6B43_Digital_Flora", "Paragon_6B43_Digital_Desert", "Paragon_6B43_nBlue", "Paragon_6B43_Gold"
 };
 
 const static ref array<string> KEYCARD_OTHER_T4 =
 {
     "Extinction_Raid_Lockpick", "HDSN_BreachingCharge", "HDSN_BreachingChargeHeavy", "CP_CannabisBrickS1",
     "CP_CannabisBrickNomad", "CP_CannabisBrickBlackFrost", "Collectable_PokemonCard_Charizard", 
-    "Collectable_PokemonCard_ShinyMewtwo", "HackingDevice"
+    "Collectable_PokemonCard_ShinyMewtwo", "HackingDevice", "Paragon_Maska_Gold", "Paragon_Maska_ChromeHearts",
+    "Paragon_Maska_nBlue"
 };
